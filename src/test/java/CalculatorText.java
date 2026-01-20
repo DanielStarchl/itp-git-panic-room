@@ -13,4 +13,8 @@ class CalculatorTest {
     void divide_works() {
         assertEquals(5, Calculator.divide(10, 2));
     }
+
+    void decimals_devide_works() {
+        assertEquals(2.5, Calculator.divide(5, 2));
+    }
 }
